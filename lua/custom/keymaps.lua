@@ -31,3 +31,6 @@ vim.keymap.set('n', '<leader><CR>', 'o<ESC>', defaults)
 vim.keymap.set('n', '<leader>bl', ':bn<CR>', { desc = '[B]uffer Next' }) -- next
 vim.keymap.set('n', '<leader>bh', ':bp<CR>', { desc = '[B]uffer Previous' }) -- previous
 vim.keymap.set('n', '<leader>bx', ':bd<CR>', { desc = '[B]uffer Delete' }) -- delete
+
+-- markdown-preview
+vim.keymap.set('n', '<leader>mp', ':MarkdownPreviewToggle<CR>')
