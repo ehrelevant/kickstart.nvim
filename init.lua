@@ -583,6 +583,7 @@ require('lazy').setup({
         tsserver = {},
         svelte = {},
         html = {},
+        tailwindcss = {},
 
         lua_ls = {
           -- cmd = {...},
