@@ -775,6 +775,15 @@ require('lazy').setup({
           { name = 'luasnip' },
           { name = 'path' },
         },
+
+        -- Custom additions to formatting
+        formatting = {
+          format = function(_, vim_item)
+            -- NOTE Removes the menu portion of cmp
+            vim_item.menu = ''
+            return vim_item
+          end,
+        },
       }
     end,
   },
